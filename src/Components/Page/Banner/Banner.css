@@ -1,0 +1,28 @@
+#banner-img{
+   background-image: url('../../../images/bannerbackground.png');
+   width: 100%;
+   height: 470px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position:center;
+   position: relative;
+   /* background-attachment: scroll; */
+}
+#banner-content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -o-transform: translate(-50%,-50%);
+}
+#banner-search-input input{
+   position: relative;
+}
+#banner-search-input button{
+   position: absolute;
+   top: 50%;
+   right: 2%;
+}
